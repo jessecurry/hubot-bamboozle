@@ -1,0 +1,35 @@
+{
+  "name": "hubot-bamboozle",
+  "version": "0.0.1",
+  "description": "Hubot script to pull the Bamboozle Cafe specials",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "mocha -R spec --compilers coffee:coffee-script test/bamboozle.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jessecurry/hubot-bamboozle.git"
+  },
+  "keywords": [
+    "bamboozle",
+    "hubot",
+    "lunch",
+    "food",
+    "vietnamese"
+  ],
+  "dependencies": {
+    "coffee-script": "~1.6"
+  },
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "mocha": "*",
+    "sinon": "*",
+    "sinon-chai": "*"
+  },
+  "author": "jessecurry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jessecurry/hubot-bamboozle/issues"
+  },
+  "homepage": "https://github.com/jessecurry/hubot-bamboozle"
+}
