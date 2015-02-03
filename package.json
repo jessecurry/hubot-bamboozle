@@ -1,6 +1,6 @@
 {
   "name": "hubot-bamboozle",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Hubot script to pull the Bamboozle Cafe specials",
   "main": "index.coffee",
   "scripts": {

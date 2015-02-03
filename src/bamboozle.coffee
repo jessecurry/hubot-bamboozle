@@ -28,10 +28,8 @@ module.exports = (robot) ->
         )
 
         $(".quickiemenu").each (i, elem) ->
-          specials[i] =
-            day: $(this).find('.quickietitle').text()
-            meal: $(this).find('.quickiedesc').text()
+          day = $(this).find('.quickietitle').text()
+          meal = $(this).find('.quickiedesc').text()
+          specials[i] = "#{day}: #{meal}"
 
-        for i in [0...specials.length]
-          special = specials[i]
-          msg.send "*#{special.day}:* #{special.meal}"
+        msg.send specials.join("\n")
